@@ -2130,9 +2130,9 @@
           "type": "string",
           "description": "Run strategy for the compute instance (e.g. \"Always\" or \"Halted\")."
         },
-        "user_data_secret_ref": {
+        "cloud_init": {
           "type": "string",
-          "description": "Name of the secret containing cloud-init user data."
+          "description": "Cloud-init user data for the compute instance."
         }
       },
       "description": "The spec contains the details of a compute instance as desired by the user."
